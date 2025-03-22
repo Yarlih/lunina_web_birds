@@ -1,0 +1,263 @@
+.main-header {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.main-header__logo {
+  width: 100px;
+}
+.main-header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main-header__nav li {
+  list-style: none;
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+a:hover:before {
+  height: 2px;
+  width: 100%;
+  background: #696969;
+}
+a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.line {
+  border-width: 1px;
+  color: black;
+}
+
+.line1 {
+  margin: 0 0;
+  padding: 0;
+  border: none;
+  border-top: 3px solid red;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.banner {
+  padding: 20px 15px;
+  background-color: #D3D3D3;
+}
+.banner__text {
+  max-width: 1150px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: pretty;
+  gap: 1.5em;
+}
+
+.primary-btn {
+  display: flex;
+  outline: unset;
+  background-color: #A9A9A9;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 300;
+  font-size: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.primary-btn:hover {
+  color: #fff;
+  background-color: #696969;
+}
+.primary-btn__container {
+  display: flex;
+  justify-content: right;
+}
+
+.fauna {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.fauna__content {
+  text-align: left;
+}
+.fauna__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+.fauna__list-item {
+  background-color: #D3D3D3;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.fauna__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.fauna__list-item-img {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.biotop {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.biotop__content {
+  text-align: left;
+}
+.biotop__text {
+  align-self: center;
+  max-width: 500px;
+}
+.biotop__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.biotop__list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+}
+.biotop__list-item img {
+  width: 100%;
+}
+.biotop__list-item:first-of-type img {
+  border-top-right-radius: 50px;
+}
+.biotop__list-item:last-of-type img {
+  border-bottom-right-radius: 50px;
+}
+
+.fact {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.fact__content {
+  text-align: left;
+}
+.fact__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.fact__logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+}
+.fact__logos img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.fact__list-item {
+  background-color: #D3D3D3;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.main-footer {
+  background-color: #D3D3D3;
+  padding: 1em;
+}
+.main-footer__text {
+  text-align: right;
+}
+
+@media screen and (max-width: 820px) {
+  .main-header {
+    flex-direction: column;
+  }
+  .main-header__nav {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

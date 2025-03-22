@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+.main-header{
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $max-container_size;
+  margin: 0 auto;
+  &__logo{
+    width: 100px;
+  }
+  &__nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  &__nav li{
+    list-style: none;
+  }
+}
