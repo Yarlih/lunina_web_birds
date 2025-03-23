@@ -1,3 +1,9 @@
-
+.main-footer {
+  background-color: #D3D3D3;
+  padding: 1em;
+}
+.main-footer__text {
+  text-align: right;
+}
 
 /*# sourceMappingURL=footer.css.map */

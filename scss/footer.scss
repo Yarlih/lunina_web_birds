@@ -1,0 +1,9 @@
+@use "variables" as *;
+
+.main-footer {
+  background-color: $gray3;
+  padding: 1em;
+  &__text {
+    text-align: right;
+  }
+}

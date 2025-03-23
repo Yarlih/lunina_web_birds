@@ -1,0 +1,20 @@
+@use "variables" as *;
+
+.banner {
+  padding: 20px 15px;
+  background-color: $gray3;
+  &__text{
+    max-width: $max-container_size;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: pretty;
+    gap:1.5em;
+  }
+}
+

@@ -1,3 +1,23 @@
-
+.primary-btn {
+  display: flex;
+  outline: unset;
+  background-color: #A9A9A9;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 300;
+  font-size: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.primary-btn:hover {
+  color: #fff;
+  background-color: #696969;
+}
+.primary-btn__container {
+  display: flex;
+  justify-content: right;
+}
 
 /*# sourceMappingURL=button.css.map */

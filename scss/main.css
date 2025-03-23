@@ -87,7 +87,7 @@
   flex-direction: row;
   align-items: flex-start;
   text-align: justify;
-  text-indent: 0.5rem;
+  text-indent: 2rem;
   text-wrap: pretty;
 }
 .fauna__list-item-img {

@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+.primary-btn{
+  display: flex;
+  outline: unset;
+  background-color: $gray1;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 300;
+  font-size: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.20s linear;
+  &:hover{
+    color: $white;
+    background-color: $gray2;
+  }
+  &__container{
+    display: flex;
+    justify-content: right;
+  }
+}

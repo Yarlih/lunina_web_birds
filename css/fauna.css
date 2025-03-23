@@ -1,3 +1,44 @@
-
+.fauna {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.fauna__content {
+  text-align: left;
+}
+.fauna__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+.fauna__list-item {
+  background-color: #D3D3D3;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.fauna__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.fauna__list-item-img {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
 
 /*# sourceMappingURL=fauna.css.map */

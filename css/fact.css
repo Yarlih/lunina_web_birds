@@ -1,3 +1,38 @@
-
+.fact {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.fact__content {
+  text-align: left;
+}
+.fact__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.fact__logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+}
+.fact__logos img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.fact__list-item {
+  background-color: #D3D3D3;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
 
 /*# sourceMappingURL=fact.css.map */

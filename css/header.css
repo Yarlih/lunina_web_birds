@@ -1,3 +1,21 @@
-
+.main-header {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.main-header__logo {
+  width: 100px;
+}
+.main-header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main-header__nav li {
+  list-style: none;
+}
 
 /*# sourceMappingURL=header.css.map */

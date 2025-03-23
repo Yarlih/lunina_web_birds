@@ -1,3 +1,38 @@
-
+.biotop {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+  text-align: center;
+}
+.biotop__content {
+  text-align: left;
+}
+.biotop__text {
+  align-self: center;
+  max-width: 500px;
+}
+.biotop__content-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  text-wrap: pretty;
+}
+.biotop__list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+}
+.biotop__list-item img {
+  width: 100%;
+}
+.biotop__list-item:first-of-type img {
+  border-top-right-radius: 50px;
+}
+.biotop__list-item:last-of-type img {
+  border-bottom-right-radius: 50px;
+}
 
 /*# sourceMappingURL=biotop.css.map */
