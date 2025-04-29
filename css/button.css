@@ -1,7 +1,7 @@
 .primary-btn {
   display: flex;
   outline: unset;
-  background-color: #A9A9A9;
+  background-color: #BDB76B;
   padding: 10px 30px;
   border-radius: 30px;
   font-weight: 300;
@@ -12,12 +12,14 @@
   transition: all 0.2s linear;
 }
 .primary-btn:hover {
-  color: #fff;
-  background-color: #696969;
+  color: #F7F9FB;
+  background-color: #808000;
 }
 .primary-btn__container {
   display: flex;
   justify-content: right;
+  align-items: center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=button.css.map */

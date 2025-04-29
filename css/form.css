@@ -4,11 +4,9 @@
   padding: 1em;
   gap: 1em;
   text-align: center;
-  align-items: center;
 }
 .fauna__content {
   text-align: left;
-  align-items: center;
 }
 .fauna__list {
   display: grid;
@@ -43,4 +41,26 @@
   border-radius: 8px;
 }
 
-/*# sourceMappingURL=fauna.css.map */
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+.input-wrapper input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  width: 300px;
+  background-color: #F5F5DC;
+  font-size: 16px;
+  font-weight: bold;
+}
+.input-wrapper label {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=form.css.map */

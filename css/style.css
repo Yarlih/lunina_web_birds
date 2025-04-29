@@ -9,18 +9,18 @@ body{
     width: 250px;
     text-wrap: balance;
 }
-.input-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 8px;
-}
-.input-wrapper input{
-    padding: 5px 8px;
-    border-radius: 4px;
-    border: 1px solid;
-    width: 300px;
-}
-.input-wrapper label{
-    font-size: 12px;
-}
+/*.input-wrapper{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 5px;*/
+/*    padding: 8px;*/
+/*}*/
+/*.input-wrapper input{*/
+/*    padding: 5px 8px;*/
+/*    border-radius: 4px;*/
+/*    border: 1px solid;*/
+/*    width: 300px;*/
+/*}*/
+/*.input-wrapper label{*/
+/*    font-size: 12px;*/
+/*}*/

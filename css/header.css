@@ -18,4 +18,13 @@
   list-style: none;
 }
 
+@media screen and (max-width: 400px) {
+  .main-header {
+    flex-direction: column;
+  }
+  .main-header__nav {
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,32 @@
+@use "variables" as *;
+@use "fauna" as *;
+@use "button" as *;
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  width: fit-content;
+  //align-items: center;
+  //justify-content: center;
+
+
+  input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 300px;
+    background-color: $gray3; 
+    font-size: 16px;
+    font-weight: bold;
+    //align-items: center;
+    //justify-content: center;
+  }
+  
+  label {
+    font-size: 14px;
+    //align-items: center;
+    //justify-content: center;
+  }
+}

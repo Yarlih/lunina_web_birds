@@ -3,11 +3,13 @@
 .banner {
   padding: 20px 15px;
   background-color: $gray3;
+
   &__text{
     max-width: $max-container_size;
     text-align: center;
     font-weight: 300;
     letter-spacing: 0.5px;
+    font-size: 2rem;
   }
   &__content{
     display: flex;
